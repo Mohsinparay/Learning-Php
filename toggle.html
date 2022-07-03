@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Toggle</title>
+	<link rel="stylesheet" type="text/css" href="toggle.css">
+</head>
+
+<body>
+
+
+<div class="hero">
+
+
+	<div class="login-box">
+	<div class="button-box">
+		<div id="btn"></div>
+		<button class="toggle-btn" onclick="login()">Login</button>
+		<button class="toggle-btn" onclick="register()">Register</button>
+
+
+
+
+	
+	</div>
+       
+      <h2>Or login With</h2>
+	<form id="login" class="input-group">
+		<div class="icons">
+		<a href="#"><ion-icon name="logo-Facebook"></ion-icon></a>
+<a href="https://facebook.com/"><ion-icon name="logo-google"></ion-icon></a>
+<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+<a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+
+			</div>
+	<input type="text" class="input-field" placeholder="User Id" required>
+	<input type="password" class="input-field" placeholder="Password" required>
+	<input type="checkbox" class="check-box"><span>Remember Password</span>
+	<button type="submit" class="submit-btn">Login</button>
+	
+</form>
+<form id="register" class="input-group">
+	<input type="text" class="input-field" placeholder="User Id" required>
+	<input type="Email" class="input-field" placeholder="Email Id" required>
+	<input id="passwo" type="password" onclick="password()" class="input-field" placeholder="Create a Password" required>
+	<input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+	<button id="wrong" type="submit" class="submit-btn" onclick="wrong()">Register</button>
+	
+</form>
+
+
+</div>
+<div class=""></div>
+	
+	<script type="text/javascript" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+	<script>
+	var x = document.getElementById('login')	
+	var y = document.getElementById('register')	
+	var z = document.getElementById('btn')	
+ function register(){
+ 	alert("you are going to register")
+ 	x.style.left = "-400px"
+ 	y.style.left = "50px"
+ 	z.style.left = "110px"
+ 		window.open('web.html')
+ }
+ function login(){
+ 	x.style.left = "50px"
+ 	y.style.left = "450px"
+ 	z.style.left = "0px"
+ 		alert('Now you can login with facebook Instagram Twitter Google Linkedin')
+
+ }
+function password(){
+	alert('create a strong password');
+
+	
+}
+function btn(){
+		window.class_name.prototype.target = same = function(first_argument) {
+			// body...
+		};('web.html')
+}
+
+
+</script>
+</body>
+</html>
